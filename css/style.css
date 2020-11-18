@@ -1,34 +1,238 @@
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
-  background-color: #eeeeee;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dashed;
-  border-top-color: #222831;
-  border-width: 7px;
-}
-
-h1 {
-  color: #222831;
-}
-h2,h3,h4,h5,h6 {
-  color: #7971ea;
-}
-
-p {
-  color: #393e46;
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #ff8700;
 }
 
-.link:hover {
-  color: #393e46;
+h2 {
+  margin: 1.5% 0%;
 }
 
-#td {
-  width: auto;
+header {
+  width: 98%;
+  padding: 1% 1% 0.5% 1%;
+  margin: 0;
+}
+
+#main-title-container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color:  #f3f3f3; /* #393e46 */ /* #222831 */ /* #ffaf00 */
+  box-shadow: 3px 3px 5px 3px;
+  color: #222831;
+}
+
+#main-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+#second-title {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#programmer {
+  width: 45%;
+  left: 27%;
+  bottom: 40px;
+  position: absolute;
+  box-shadow: 5px 5px;
+}
+
+.back-position {
+  position: absolute;
+  width: 7%;
+}
+
+#diamond-left {
+  top: 9%;
+  left: 35%;
+}
+
+#diamond-right {
+  top: 9%;
+  right: 35%;
+}
+
+#back1 {
+  left: 8%;
+  top: 50%;
+}
+
+#back1 {
+  left: 8%;
+  top: 50%;
+}
+
+#back2 {
+  right: 12%;
+  bottom: 17%;
+}
+
+#back3 {
+  top: 12%;
+  right: 3%;
+}
+
+#main-content {
+  width: 98%;
+  padding: 0.5% 1% 0% 1%;
+  margin: 0;
+}
+
+#about-me {
+  box-shadow: 3px 3px 5px 3px;
+  width: 98%;
+  height: auto;
+  padding: 0.5% 1% 0.5% 1%;
+  background-color:  #f3f3f3;
+}
+
+#image-me {
+  display: block;
+  width: 10%;
+  margin: 1% auto 1% auto;
+}
+
+#about-me-title {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+#skills {
+  box-shadow: 3px 3px 5px 3px;
+  width: 98%;
+  height: auto;
+  text-align: center;
+  padding: 0.5% 1% 0.5% 1%;
+  margin: 1% 0% 0% 0;
+  background-color:  #f3f3f3;
+}
+
+#skills-me {
+  display: block;
+  width: 10%;
+  margin: 1% auto 1% auto;
+}
+
+#skills table {
+  margin: 0 auto;
+}
+
+#hobbies-game {
+  box-shadow: 3px 3px 5px 3px;
+  font-size: 20px;
+  text-align: center;
+  width: 98%;
+  height: auto;
+  padding: 3% 1% 3% 1%;
+  margin: 1% 0% 0% 0;
+  background-color:  #f3f3f3;
+}
+
+#game-img {
+  display: inline-block;
+  width: 10%;
+  margin-right: 10%;
+}
+
+#game-list {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#hobbies-serial {
+  box-shadow: 3px 3px 5px 3px;
+  font-size: 20px;
+  text-align: center;
+  width: 98%;
+  height: auto;
+  padding: 3% 1% 3% 1%;
+  margin: 1% 0% 0% 0;
+  background-color:  #f3f3f3;
+}
+
+#serial-img {
+  display: inline-block;
+  width: 10%;
+}
+
+#serial-list {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#contact {
+  box-shadow: 3px 3px 5px 3px;
+  font-size: 20px;
+  text-align: center;
+  width: 98%;
+  height: auto;
+  padding: 2% 1%;
+  margin: 1% 0% 0% 0;
+  background-color:  #f3f3f3;
+}
+
+#contact-inform {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.headline {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 1em;
+  margin: 0;
+}
+
+#footer {
+  width: 98%;
+  padding: 1%;
+  margin: 0;
+}
+
+#footer-content {
+  width: 96%;
+  padding: 2%;
+  box-shadow: 3px 3px 5px 3px;
+  background-color:  #f3f3f3;
+}
+
+#footer-content p {
+  font-size: 1.5em;
+  margin: auto 0 auto 0;
+  text-align: center;
+}
+
+#links {
+  text-align: center;
+}
+
+#links a {
+  font-size: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
 }

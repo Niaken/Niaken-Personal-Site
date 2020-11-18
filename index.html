@@ -4,126 +4,115 @@
 <head>
   <meta charset="utf-8">
   <title>Nadtochey Personal Site</title>
-  <link rel="shortcut icon" href="img\favicon.jpg" type="image/jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png">
   <link rel="stylesheet" href="css/style.css">
-  <style media="screen">
-    table {
-      width: 100%;
-      padding: 2px;
-    }
-    #td {
-      width:30%;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <hr>
-  <table>
-    <tr>
-      <td id="td" style="width: 258px;">
-        <img src="img\doge.jpg" alt="Doge">
-      </td>
-      <td>
-        <center>
-          <h1>Nadtochey Mykyta</h1>
-          <hr>
-          <p>Народився 12 листопада 2001 року в місті <strong>Чернігів</strong>.</p>
-          <hr>
-          <p>В 2008 році пішов в Городнянську школу <strong>I - III</strong> ступеня в <em>1 клас</em>. В 2019 році закінчив <em>11 класів</em> з <em>срібною медаллю</em>.</p>
-          <hr>
-          <p>Зараз Студент <em>Національного Авіаційного Університету</em>, кафедри Комп'ютерних Систем Управління, групи <strong>СП-236</strong>.</p>
-        </center>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        <h2><strong>Галерея</strong></h2>
-        <img src="img\autumn.jpg" alt="Осень">
-        <img src="img\spring.jpg" alt="Поле">
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <thead>
-      <tr>
-        <th align="left" colspan="2">
-          <h2>Skills</h2>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><p>HTML(5):⭐⭐⭐</p></td>
-        <td><p>CSS(3):⭐⭐⭐</p></td>
-      </tr>
-      <tr>
-        <td><p>C++:⭐⭐⭐⭐</p></td>
-        <td><p>Java:⭐⭐⭐⭐⭐</p></td>
-      </tr>
-      <tr>
-        <td><p>JavaScript:⭐⭐⭐</p></td>
-        <td><p>Algorithms:⭐⭐⭐⭐</p></td>
-      </tr>
-      <tr>
-        <td><p>C:⭐⭐⭐</p></td>
-        <td><p>MS Office:⭐⭐⭐⭐</p></td>
-      </tr>
-      <tr>
-        <td><p>Painting:⭐⭐⭐</p></td>
-        <td><p>Photography:⭐⭐⭐</p></td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <table>
-    <thead>
-      <tr align="left">
-        <th>
-          <h2><strong>Улюблені Ігри:</strong></h2>
-        </th>
-        <th>
-          <h2><strong>Улюблені Серіали:</strong></h2>
-        </th>
-      </tr>
-    </thead>
-    <tr>
-      <td>
+  <header>
+    <div id="main-title-container">
+      <p id="main-title">I'm Nikita</p>
+      <p id="second-title">a programmer.</p>
+      <img id="programmer" src="img/prog.jpg" alt="Програмист">
+      <img class="back-position" id="diamond-left" src="img/diamond.jpg" alt="Елемент фона">
+      <img class="back-position" id="diamond-right" src="img/diamond.jpg" alt="Елемент фона">
+      <img class="back-position" id="back1" src="img/back1.jpg" alt="Елемент фона">
+      <img class="back-position" id="back2" src="img/back2.jpg" alt="Елемент фона">
+      <img class="back-position" id="back3" src="img/back3.jpg" alt="Елемент фона">
+    </div>
+  </header>
+
+  <section id="main-content">
+    <div id="about-me">
+      <img id="image-me" src="img/about-me.png" alt="About me">
+      <div id="about-me-title">
+        <h1>Nadtochey Nikita</h1>
+        <p>He was born on November 12, 2001 in the city of
+          <strong>Chernihiv</strong>.</p>
+        <p>In 2008 I went to the Horodnya school of
+          <strong>I - III</strong> degree in
+          <em>1 class</em>. In 2019 he graduated from
+          <em>11 classes</em> with a <em>silver medal</em>.</p>
+        <p>He is currently a student of the <em>National Aviation University</em>,
+          Department of Computer Control Systems,
+          <strong>SP-236</strong> group.</p>
+      </div>
+    </div>
+    <div id="skills">
+      <img id="skills-me" src="img/skills.png" alt="Skills">
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <td><p>HTML(5):⭐⭐⭐</p></td>
+          <td><p>CSS(3):⭐⭐⭐</p></td>
+          <td><p>C:⭐⭐⭐</p></td>
+        </tr>
+        <tr>
+          <td><p>C++:⭐⭐⭐⭐</p></td>
+          <td><p>Java:⭐⭐⭐⭐⭐</p></td>
+          <td><p>Algorithms:⭐⭐⭐⭐</p></td>
+        </tr>
+        <tr>
+          <td><p>JavaScript:⭐⭐⭐</p></td>
+          <td><p>MS Office:⭐⭐⭐⭐</p></td>
+          <td><p>Photography:⭐⭐⭐</p></td>
+        </tr>
+      </table>
+    </div>
+    <div id="hobbies-game">
+      <img id="game-img" src="img/controller.png" alt="Skills">
+      <div id="game-list">
+        <h2>Favorite Games:</h2>
         <ul>
           <li>Far Cry 5</li>
           <li>Metro: Exodus</li>
-          <li>Assassin's Creed Odyssey</li>
           <li>Assassin's Creed Origin</li>
+          <li>Assassin's Creed Odyssey</li>
+          <li>Assassin's Creed Valhalla</li>
           <li>The Witcher 3: Wild Hunt</li>
         </ul>
-      </td>
-      <td>
-        <ol>
+      </div>
+    </div>
+    <div id="hobbies-serial">
+      <div id="serial-list">
+        <h2>Favorite Serials:</h2>
+        <ul>
           <li>Breaking Bad</li>
           <li>Silicon Valley</li>
           <li>Game of Thrones</li>
           <li>The Witcher</li>
           <li>The Flash</li>
-        </ol>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        <a href="contacts.html">
-          <h3><strong class="link">Контактна інформація</strong></h3>
-        </a>
-      </td>
-    </tr>
-  </table>
-  <hr>
+        </ul>
+      </div>
+      <img id="serial-img" src="img/cinema.png" alt="Cinema">
+    </div>
+    <div id="contact">
+      <p id="contact-inform">Контактна інформація</p>
+      <p class="headline">Адреса</p>
+      <p class="text">м.Київ вул.Ніжинська 29Д, кв. 327Б</p>
+      <p class="headline">Телефон</p>
+      <p class="text">0992893904</p>
+      <p class="headline">Електронна пошта</p>
+      <p class="text">vatikin12@gmail.com</p>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div id="footer-content">
+      <div id="links">
+        <a href="paralax.html">Paralax</a>
+        <a href="responsive-flex.html">Responsive-Flex</a>
+        <a href="task2_1.html">Task 1</a>
+        <a href="task2_2.html">Task 2</a>
+        <a href="task2_3.html">Task 3</a>
+        <a href="task2_4.html">Task 4</a>
+        <a href="task2_5.html">Task 5</a>
+      </div>
+      <p>© 2020. Nadtochey N.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
